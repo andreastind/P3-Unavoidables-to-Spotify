@@ -11,6 +11,7 @@ def get_soup(stored_soup=False, decade=2020):
     
     Arguments:
         stored_soup: whether we should use a locally stored version of the page
+        decade: the decade to scrape from, one of 1990, 2000, 2010, 2020
     
     Returns:
         res: the content tag of the scraped site as html
